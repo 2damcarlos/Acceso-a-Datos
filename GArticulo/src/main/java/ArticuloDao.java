@@ -23,10 +23,27 @@ public class ArticuloDao {
 	    } catch(SQLException e) {
 	    	System.out.println(e.getMessage());
 	    }
+	    
+	    System.out.println("DONE\n");
 	}
 
-	public static void editar() {
-		// TODO Auto-generated method stub
+	public static void editar(Articulo articulo) {
+		connection = App.getConnection();
+		PreparedStatement stmt = null;
+	    String query = "UPDATE Articulo SET nombre = ?, precio = ?, categoria = ? where id = ?";
+	    
+	    try {
+	    	stmt = connection.prepareStatement(query);
+	    	stmt.setFloat(2, articulo.getPrecio());
+	    	stmt.setString(1, articulo.getNombre());
+	    	stmt.setInt(3, articulo.getCategoria());
+	    	stmt.setInt(4, articulo.getId());
+	        stmt.execute();
+	    } catch(SQLException e) {
+	    	System.out.println(e.getMessage());
+	    }
+	    
+	    System.out.println("DONE\n");
 		
 	}
 
@@ -42,6 +59,8 @@ public class ArticuloDao {
 	    } catch(SQLException e) {
 	    	System.out.println(e.getMessage());
 	    }
+	    
+	    System.out.println("DONE\n");
 		
 	}
 	

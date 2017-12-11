@@ -1,6 +1,6 @@
 public class ArticuloMain {
 
-	public enum Option {Salir, Nuevo, Editar, Eliminar, Consultar, Listar};
+	public enum Option {Salir, Nuevo, Editar, Eliminar, Listar};
 	static boolean repeat = true;
 	
 	public static void main(String[] args) {
@@ -19,14 +19,11 @@ public class ArticuloMain {
 				break;
 
 			case Editar:
-				ArticuloDao.editar();
+				ArticuloDao.editar(ArticuloUI.editarArticulo(ArticuloUI.seleccionarArticulo()));
 				break;
 				
 			case Eliminar:
 				ArticuloDao.eliminar(ArticuloUI.seleccionarArticulo());
-				break;
-			
-			case Consultar:
 				break;
 				
 			case Listar:

@@ -35,12 +35,7 @@ public class ArticuloUI {
 		System.out.print("Elegir la categoría a la que pertenece la categoría\n\n0. Sin categoría\n1. Mostrar lista de categorías\nOpcion: ");
 		if(Integer.parseInt(scanner.nextLine())!=0) {
 			
-			ArrayList<Categoria> categorias = ArticuloDao.getCategorias();
-			
-			System.out.println("\n\n");
-			for(int i = 0;i<categorias.size();i++) {
-				System.out.println(categorias.get(i).getId() + " - " + categorias.get(i).getNombre());
-			}
+			listarCategoría();
 			
 			System.out.print("Categoría: ");
 			
@@ -49,6 +44,15 @@ public class ArticuloUI {
 		}
 		
 		return articulo;
+	}
+	
+	public static void listarCategoría() {
+		ArrayList<Categoria> categorias = ArticuloDao.getCategorias();
+		
+		System.out.println("\n\n");
+		for(int i = 0;i<categorias.size();i++) {
+			System.out.println(categorias.get(i).getId() + " - " + categorias.get(i).getNombre());
+		}
 	}
 
 	public static Articulo seleccionarArticulo() {
@@ -80,6 +84,19 @@ public class ArticuloUI {
 		
 		System.out.println("\n\n");
 		
+	}
+
+	public static Articulo editarArticulo(Articulo articulo) {
+		
+		System.out.print("Nombre nuevo: ");
+		articulo.setNombre(scanner.nextLine());
+		System.out.print("Precio nuevo: ");
+		articulo.setPrecio(Float.parseFloat(scanner.nextLine()));
+		listarCategoría();
+		System.out.print("Categoría nueva: ");
+		articulo.setCategoria(Integer.parseInt(scanner.nextLine()));
+		
+		return articulo;
 	}
 
 }
