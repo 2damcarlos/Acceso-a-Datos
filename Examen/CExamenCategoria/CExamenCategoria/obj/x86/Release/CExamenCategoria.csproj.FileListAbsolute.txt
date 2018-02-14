@@ -1,0 +1,4 @@
+/home/carmed/Acceso-a-Datos/Examen/CExamenCategoria/CExamenCategoria/bin/Release/CExamenCategoria.exe
+/home/carmed/Acceso-a-Datos/Examen/CExamenCategoria/CExamenCategoria/bin/Release/MySql.Data.dll
+/home/carmed/Acceso-a-Datos/Examen/CExamenCategoria/CExamenCategoria/obj/x86/Release/CExamenCategoria.csproj.CoreCompileInputs.cache
+/home/carmed/Acceso-a-Datos/Examen/CExamenCategoria/CExamenCategoria/obj/x86/Release/CExamenCategoria.exe

@@ -1,0 +1,7 @@
+/home/carmed/Acceso-a-Datos/Examen/CExamenCategoria/CExamenCategoria/bin/Debug/CExamenCategoria.exe
+/home/carmed/Acceso-a-Datos/Examen/CExamenCategoria/CExamenCategoria/bin/Debug/CExamenCategoria.pdb
+/home/carmed/Acceso-a-Datos/Examen/CExamenCategoria/CExamenCategoria/bin/Debug/MySql.Data.dll
+/home/carmed/Acceso-a-Datos/Examen/CExamenCategoria/CExamenCategoria/obj/x86/Debug/CExamenCategoria.csprojResolveAssemblyReference.cache
+/home/carmed/Acceso-a-Datos/Examen/CExamenCategoria/CExamenCategoria/obj/x86/Debug/CExamenCategoria.csproj.CoreCompileInputs.cache
+/home/carmed/Acceso-a-Datos/Examen/CExamenCategoria/CExamenCategoria/obj/x86/Debug/CExamenCategoria.exe
+/home/carmed/Acceso-a-Datos/Examen/CExamenCategoria/CExamenCategoria/obj/x86/Debug/CExamenCategoria.pdb

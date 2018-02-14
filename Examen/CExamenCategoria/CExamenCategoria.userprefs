@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{0ECF584F-F8AC-4E21-8ADD-73EA8AE7E420}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CExamenCategoria/Program.cs">
+    <Files>
+      <File FileName="CExamenCategoria/Program.cs" Line="25" Column="22" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.CExamenCategoria PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>
